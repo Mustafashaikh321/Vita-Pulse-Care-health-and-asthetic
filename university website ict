@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vita PulseCare - Complete Health & Aesthetic System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Header Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> +92 300 1234567</span>
+                    <span><i class="fas fa-envelope"></i> info@vitapulsecare.com</span>
+                </div>
+                <div class="project-status">
+                    <span class="status-badge"><i class="fas fa-code"></i> Under Development</span>
+                    <span class="status-badge"><i class="fas fa-github"></i> GitHub Ready</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-wrapper">
+                <!-- Logo -->
+                <div class="logo-area">
+                    <div class="logo-icon">
+                        <i class="fas fa-heart-pulse"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1 class="logo-title">Vita PulseCare</h1>
+                        <p class="logo-subtitle">Health & Aesthetic Management</p>
+                    </div>
+                </div>
+
+                <!-- Navigation Menu -->
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                        <li class="nav-item"><a href="#problem" class="nav-link"><i class="fas fa-exclamation-triangle"></i> Problem</a></li>
+                        <li class="nav-item"><a href="#solution" class="nav-link"><i class="fas fa-lightbulb"></i> Solution</a></li>
+                        <li class="nav-item"><a href="#features" class="nav-link"><i class="fas fa-star"></i> Features</a></li>
+                        <li class="nav-item"><a href="#technology" class="nav-link"><i class="fas fa-code"></i> Tech Stack</a></li>
+                        <li class="nav-item"><a href="#timeline" class="nav-link"><i class="fas fa-calendar-alt"></i> Timeline</a></li>
+                        <li class="nav-item"><a href="#team" class="nav-link"><i class="fas fa-users"></i> Team</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+        <ul class="mobile-nav-list">
+            <li><a href="#home" class="mobile-nav-link"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#problem" class="mobile-nav-link"><i class="fas fa-exclamation-triangle"></i> Problem</a></li>
+            <li><a href="#solution" class="mobile-nav-link"><i class="fas fa-lightbulb"></i> Solution</a></li>
+            <li><a href="#features" class="mobile-nav-link"><i class="fas fa-star"></i> Features</a></li>
+            <li><a href="#technology" class="mobile-nav-link"><i class="fas fa-code"></i> Tech Stack</a></li>
+            <li><a href="#timeline" class="mobile-nav-link"><i class="fas fa-calendar-alt"></i> Timeline</a></li>
+            <li><a href="#team" class="mobile-nav-link"><i class="fas fa-users"></i> Team</a></li>
+            <li><a href="#contact" class="mobile-nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="hero-content">
+                    <h2 class="hero-title">Transform Your Clinic with <span class="highlight">Digital Management</span></h2>
+                    <p class="hero-description">
+                        Vita PulseCare is a complete digital solution designed specifically for modern health and aesthetic centers. 
+                        Our system streamlines appointments, patient records, treatments, and daily operations to save time, 
+                        reduce errors, and improve patient satisfaction.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Digital Records</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">70%</div>
+                            <div class="stat-label">Time Saved</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Access</div>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#features" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i> Explore Features
+                        </a>
+                        <a href="#problem" class="btn btn-secondary">
+                            <i class="fas fa-play-circle"></i> Watch Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="dashboard-preview">
+                        <div class="dashboard-header">
+                            <div class="dashboard-title">Vita PulseCare Dashboard</div>
+                            <div class="dashboard-controls">
+                                <span class="control-dot red"></span>
+                                <span class="control-dot yellow"></span>
+                                <span class="control-dot green"></span>
+                            </div>
+                        </div>
+                        <div class="dashboard-content">
+                            <div class="dashboard-widget">
+                                <div class="widget-icon"><i class="fas fa-calendar"></i></div>
+                                <div class="widget-info">
+                                    <div class="widget-title">Today's Appointments</div>
+                                    <div class="widget-value">12</div>
+                                </div>
+                            </div>
+                            <div class="dashboard-widget">
+                                <div class="widget-icon"><i class="fas fa-user-injured"></i></div>
+                                <div class="widget-info">
+                                    <div class="widget-title">Active Patients</div>
+                                    <div class="widget-value">48</div>
+                                </div>
+                            </div>
+                            <div class="dashboard-widget">
+                                <div class="widget-icon"><i class="fas fa-procedures"></i></div>
+                                <div class="widget-info">
+                                    <div class="widget-title">Ongoing Treatments</div>
+                                    <div class="widget-value">23</div>
+                                </div>
+                            </div>
+                            <div class="dashboard-widget">
+                                <div class="widget-icon"><i class="fas fa-chart-line"></i></div>
+                                <div class="widget-info">
+                                    <div class="widget-title">Monthly Revenue</div>
+                                    <div class="widget-value">$12,540</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Statement Section -->
+    <section id="problem" class="problem-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">The Problem We're Solving</h2>
+                <p class="section-subtitle">Traditional clinic management systems are outdated and inefficient</p>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon problem-icon-1">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3 class="problem-title">Paper-Based Records</h3>
+                    <p class="problem-description">
+                        Manual paperwork leads to lost files, errors in data entry, and difficulty in 
+                        retrieving patient history when needed urgently.
+                    </p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon problem-icon-2">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="problem-title">Time-Consuming Processes</h3>
+                    <p class="problem-description">
+                        Manual appointment scheduling, billing, and record-keeping take up valuable 
+                        staff time that could be spent on patient care.
+                    </p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon problem-icon-3">
+                        <i class="fas fa-user-secret"></i>
+                    </div>
+                    <h3 class="problem-title">Security Risks</h3>
+                    <p class="problem-description">
+                        Physical files can be lost, damaged, or accessed by unauthorized personnel, 
+                        compromising patient privacy and data security.
+                    </p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon problem-icon-4">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3 class="problem-title">Lack of Analytics</h3>
+                    <p class="problem-description">
+                        No proper system to track clinic performance, patient trends, or generate 
+                        reports for better decision-making.
+                    </p>
+                </div>
+            </div>
+            <div class="problem-quote">
+                <div class="quote-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="quote-text">
+                    "Without a proper digital system, clinics struggle to provide high-quality services, 
+                    resulting in lower productivity and patient dissatisfaction."
+                </p>
+                <div class="quote-source">- From Our Project Report</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="solution-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Digital Solution</h2>
+                <p class="section-subtitle">Vita PulseCare transforms traditional clinics into modern healthcare facilities</p>
+            </div>
+            <div class="solution-wrapper">
+                <div class="solution-image">
+                    <div class="solution-phone-mockup">
+                        <div class="phone-screen">
+                            <div class="phone-header">
+                                <div class="phone-time">9:41</div>
+                                <div class="phone-icons">
+                                    <i class="fas fa-signal"></i>
+                                    <i class="fas fa-wifi"></i>
+                                    <i class="fas fa-battery-full"></i>
+                                </div>
+                            </div>
+                            <div class="phone-content">
+                                <div class="app-icon">
+                                    <i class="fas fa-heartbeat"></i>
+                                </div>
+                                <div class="app-title">Vita PulseCare</div>
+                                <div class="app-notification">
+                                    <div class="notification-icon">
+                                        <i class="fas fa-bell"></i>
+                                    </div>
+                                    <div class="notification-content">
+                                        <div class="notification-title">Appointment Reminder</div>
+                                        <div class="notification-text">Dr. Ali at 2:30 PM today</div>
+                                    </div>
+                                </div>
+                                <div class="app-feature">
+                                    <i class="fas fa-calendar-check"></i>
+                                    <span>Book Appointment</span>
+                                </div>
+                                <div class="app-feature">
+                                    <i class="fas fa-file-medical"></i>
+                                    <span>View Records</span>
+                                </div>
+                                <div class="app-feature">
+                                    <i class="fas fa-video"></i>
+                                    <span>Video Consult</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="solution-content">
+                    <h3 class="solution-main-title">Everything You Need in One System</h3>
+                    <div class="solution-list">
+                        <div class="solution-item">
+                            <div class="solution-check">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="solution-item-content">
+                                <h4>Digital Patient Records</h4>
+                                <p>Secure, accessible, and organized patient history with medical notes, treatments, and prescriptions.</p>
+                            </div>
+                        </div>
+                        <div class="solution-item">
+                            <div class="solution-check">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="solution-item-content">
+                                <h4>Smart Appointment Scheduling</h4>
+                                <p>Automated booking, reminders, and calendar management to reduce no-shows and optimize schedules.</p>
+                            </div>
+                        </div>
+                        <div class="solution-item">
+                            <div class="solution-check">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="solution-item-content">
+                                <h4>Billing & Inventory Management</h4>
+                                <p>Integrated billing system with inventory tracking for medical supplies and aesthetic products.</p>
+                            </div>
+                        </div>
+                        <div class="solution-item">
+                            <div class="solution-check">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="solution-item-content">
+                                <h4>Reporting & Analytics</h4>
+                                <p>Generate insights on clinic performance, patient trends, and financial reports for better decisions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solution-benefits">
+                        <div class="benefit">
+                            <i class="fas fa-clock"></i>
+                            <span>Saves 15+ hours weekly</span>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <span>Reduces costs by 30%</span>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-smile"></i>
+                            <span>Improves patient satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">System Features</h2>
+                <p class="section-subtitle">Comprehensive tools designed for modern healthcare needs</p>
+            </div>
+            <div class="features-tabs">
+                <div class="tabs-header">
+                    <button class="tab-btn active" data-tab="tab1">Clinic Management</button>
+                    <button class="tab-btn" data-tab="tab2">Patient Portal</button>
+                    <button class="tab-btn" data-tab="tab3">Admin Tools</button>
+                    <button class="tab-btn" data-tab="tab4">Security</button>
+                </div>
+                <div class="tabs-content">
+                    <div class="tab-pane active" id="tab1">
+                        <div class="tab-content-wrapper">
+                            <div class="tab-image">
+                                <div class="feature-mockup">
+                                    <div class="mockup-header">Clinic Dashboard</div>
+                                    <div class="mockup-grid">
+                                        <div class="mockup-item">
+                                            <i class="fas fa-user-md"></i>
+                                            <span>Doctor Schedule</span>
+                                        </div>
+                                        <div class="mockup-item">
+                                            <i class="fas fa-procedures"></i>
+                                            <span>Treatment Rooms</span>
+                                        </div>
+                                        <div class="mockup-item">
+                                            <i class="fas fa-pills"></i>
+                                            <span>Inventory</span>
+                                        </div>
+                                        <div class="mockup-item">
+                                            <i class="fas fa-file-invoice-dollar"></i>
+                                            <span>Billing</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-text">
+                                <h3>Complete Clinic Operations</h3>
+                                <ul class="feature-list">
+                                    <li><i class="fas fa-check"></i> Real-time appointment scheduling</li>
+                                    <li><i class="fas fa-check"></i> Staff management and duty rosters</li>
+                                    <li><i class="fas fa-check"></i> Treatment room allocation</li>
+                                    <li><i class="fas fa-check"></i> Medical inventory tracking</li>
+                                    <li><i class="fas fa-check"></i> Automated billing and invoices</li>
+                                    <li><i class="fas fa-check"></i> Patient waitlist management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab2">
+                        <div class="tab-content-wrapper">
+                            <div class="tab-image">
+                                <div class="feature-mockup">
+                                    <div class="mockup-header">Patient Portal</div>
+                                    <div class="mockup-grid">
+                                        <div class="mockup-item">
+                                            <i class="fas fa-history"></i>
+                                            <span>Medical History</span>
+                                        </div>
+                                        <div class="mockup-item">
+                                            <i class="fas fa-calendar-plus"></i>
+                                            <span>Book Online</span>
+                                        </div>
+                                        <div class="mockup-item">
+                                            <i class="fas fa-file-prescription"></i>
+                                            <span>Prescriptions</span>
+                                        </div>
+                                        <div class="mockup-item">
+                                            <i class="fas fa-comment-medical"></i>
+                                            <span>Messages</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-text">
+                                <h3>Patient Experience</h3>
+                                <ul class="feature-list">
+                                    <li><i class="fas fa-check"></i> Online appointment booking</li>
+                                    <li><i class="fas fa-check"></i> Access to medical records</li>
+                                    <li><i class="fas fa-check"></i> Prescription refill requests</li>
+                                    <li><i class="fas fa-check"></i> Secure messaging with doctors</li>
+                                    <li><i class="fas fa-check"></i> Treatment progress tracking</li>
+                                    <li><i class="fas fa-check"></i> Bill payment online</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab3">
+                        <div class="tab-content-wrapper">
+                            <div class="tab-image">
+                                <div class="feature-mockup">
+                                    <div class="mockup-header">Admin Panel</div>
+                                    <div class="mockup-grid">
+                                        <div class="mockup-item">
+                                            <i class="fas fa-chart-pie"></i>
+                                            <span>Analytics</span>
+                                        </div>
+                                        <div class="mockup-item">
+                                            <i class="fas fa-cogs"></i>
+                                            <span>Settings</span>
+                                        </div>
+                                        <div class="mockup-item">
+                                            <i class="fas fa-users-cog"></i>
+                                            <span>User Management</span>
+                                        </div>
+                                        <div class="mockup-item">
+                                            <i class="fas fa-file-export"></i>
+                                            <span>Reports</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-text">
+                                <h3>Administrative Tools</h3>
+                                <ul class="feature-list">
+                                    <li><i class="fas fa-check"></i> Comprehensive analytics dashboard</li>
+                                    <li><i class="fas fa-check"></i> User role and permission management</li>
+                                    <li><i class="fas fa-check"></i> Automated report generation</li>
+                                    <li><i class="fas fa-check"></i> System configuration and settings</li>
+                                    <li><i class="fas fa-check"></i> Backup and data management</li>
+                                    <li><i class="fas fa-check"></i> Audit logs and activity tracking</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab4">
+                        <div class="tab-content-wrapper">
+                            <div class="tab-image">
+                                <div class="feature-mockup">
+                                    <div class="mockup-header">Security Center</div>
+                                    <div class="mockup-grid">
+                                        <div class="mockup-item">
+                                            <i class="fas fa-lock"></i>
+                                            <span>Encryption</span>
+                                        </div>
+                                        <div class="mockup-item">
+                                            <i class="fas fa-user-shield"></i>
+                                            <span>Access Control</span>
+                                        </div>
+                                        <div class="mockup-item">
+                                            <i class="fas fa-history"></i>
+                                            <span>Audit Logs</span>
+                                        </div>
+                                        <div class="mockup-item">
+                                            <i class="fas fa-database"></i>
+                                            <span>Backup</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-text">
+                                <h3>Security & Compliance</h3>
+                                <ul class="feature-list">
+                                    <li><i class="fas fa-check"></i> End-to-end data encryption</li>
+                                    <li><i class="fas fa-check"></i> HIPAA compliance ready</li>
+                                    <li><i class="fas fa-check"></i> Role-based access control</li>
+                                    <li><i class="fas fa-check"></i> Two-factor authentication</li>
+                                    <li><i class="fas fa-check"></i> Automated data backups</li>
+                                    <li><i class="fas fa-check"></i> Activity audit trails</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- Project Timeline Section -->
+    <section id="timeline" class="timeline-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Project Timeline</h2>
+                <p class="section-subtitle">11-Week development plan from concept to deployment</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Weeks 1-2</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Phase 1: Requirement Analysis</h3>
+                        <p class="timeline-description">
+                            Gather clinic requirements, study existing systems, interview stakeholders, 
+                            and finalize project specifications.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="timeline-tag">Research</span>
+                            <span class="timeline-tag">Interviews</span>
+                            <span class="timeline-tag">Documentation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Weeks 3-4</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Phase 2: Design & Planning</h3>
+                        <p class="timeline-description">
+                            Create system architecture, design database schema, plan user interface, 
+                            and select technologies.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="timeline-tag">Wireframes</span>
+                            <span class="timeline-tag">Database Design</span>
+                            <span class="timeline-tag">UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Weeks 5-7</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Phase 3: Development</h3>
+                        <p class="timeline-description">
+                            Backend development in C, frontend creation with HTML/CSS/JS, 
+                            integration of features, and module testing.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="timeline-tag">C Programming</span>
+                            <span class="timeline-tag">Frontend</span>
+                            <span class="timeline-tag">Integration</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Weeks 8-9</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Phase 4: Testing</h3>
+                        <p class="timeline-description">
+                            System testing, bug fixing, performance optimization, security testing, 
+                            and user acceptance testing.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="timeline-tag">Unit Testing</span>
+                            <span class="timeline-tag">Bug Fixes</span>
+                            <span class="timeline-tag">Security</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Weeks 10-11</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Phase 5: Deployment & Documentation</h3>
+                        <p class="timeline-description">
+                            Upload to GitHub, deploy live website, create user manuals, 
+                            and complete project documentation.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="timeline-tag">Deployment</span>
+                            <span class="timeline-tag">Documentation</span>
+                            <span class="timeline-tag">Training</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Project Team</h2>
+                <p class="section-subtitle">Meet the developers behind Vita PulseCare</p>
+            </div>
+            <div class="team-members">
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="avatar-initials">MH</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Maaz Ahmed</h3>
+                        <p class="member-role">Bootstrap and Frontend</p>
+                        <p class="member-contribution">
+                            Responsible for writing the HTML structure of the website, 
+                        organizing page layout, and integrating frontend components. 
+                        </p>
+                        <div class="member-skills">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">System Design</span>
+                            <span class="skill-tag">Project Management</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="avatar-initials">HH</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Muhammad Rayyan Ali Baig</h3>
+                        <p class="member-role">Bootstrap and Frontend</p>
+                        <p class="member-contribution">
+                            Designed the website using CSS, worked on styling, layout design,
+                        color schemes, and overall user interface appearance.
+                        </p>
+                        <div class="member-skills">
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">UI/UX Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="avatar-initials">U</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Mustafa</h3>
+                        <p class="member-role">Bootstrap and Frontend</p>
+                        <p class="member-contribution">
+                            Handled project documentation, report writing, information collection,
+                        and assisted in system planning and project organization.
+                        </p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Research</span>
+                            <span class="skill-tag">Documentation</span>
+                            <span class="skill-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <i class="fas fa-heart-pulse"></i>
+                        <div class="footer-logo-text">
+                            <h3>Vita PulseCare</h3>
+                            <p>Health & Aesthetic System</p>
+                        </div>
+                    </div>
+                    <p class="footer-about">
+                        A modern digital solution for health and aesthetic centers to manage 
+                        appointments, patient records, treatments, and daily operations efficiently.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#problem"><i class="fas fa-chevron-right"></i> Problem Statement</a></li>
+                        <li><a href="#solution"><i class="fas fa-chevron-right"></i> Our Solution</a></li>
+                        <li><a href="#features"><i class="fas fa-chevron-right"></i> Features</a></li>
+                        <li><a href="#technology"><i class="fas fa-chevron-right"></i> Technology</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Project Info</h4>
+                    <ul class="footer-links">
+                        <li><a href="#timeline"><i class="fas fa-chevron-right"></i> Timeline</a></li>
+                        <li><a href="#team"><i class="fas fa-chevron-right"></i> Team</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Documentation</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> User Guide</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> GitHub Repository</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-university"></i> Department of Computer Science</p>
+                        <p><i class="fas fa-map-marker-alt"></i> University Project</p>
+                        <p><i class="fas fa-envelope"></i> contact@vitapulsecare.com</p>
+                        <p><i class="fas fa-phone"></i> +92 300 123 4567</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    &copy; 2025 Vita PulseCare Health & Aesthetic Management System. All rights reserved.
+                </div>
+                <div class="footer-handmade">
+                    <i class="fas fa-hand-sparkles"></i> Handcrafted with dedication by the project team
+                </div>
+               
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
